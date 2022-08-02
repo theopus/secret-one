@@ -11,6 +11,7 @@
          arjs='sourceType: webcam; debugUIEnabled: false; detectionMode: mono_and_matrix; matrixCodeType: 3x3;'>
 
 
+    <!--    START-->
     <a-marker id="animated-marker" type='barcode' value='1'>
         <a-entity
                 gltf-model="https://raw.githubusercontent.com/theopus/secret-one/master/giraffe.gltf"
@@ -21,13 +22,14 @@
         <a-entity
                 gltf-model="https://raw.githubusercontent.com/theopus/secret-one/master/dog.gltf"
                 scale="2 2 2"
-                position="4 0 0"
+                position="2 0 0"
+                rotation="90 0 0"
                 animation-mixer="timeScale:1"
         >
         </a-entity>
     </a-marker>
 
-
+    <!--    PEACH-->
     <a-marker id="animated-marker" type='barcode' value='2'>
         <a-entity
                 gltf-model="https://raw.githubusercontent.com/theopus/secret-one/master/peach3.gltf"
@@ -36,6 +38,7 @@
         </a-entity>
     </a-marker>
 
+    <!--LADDEr-->
     <a-marker id="animated-marker" type='barcode' value='3'>
         <a-entity
                 gltf-model="https://raw.githubusercontent.com/theopus/secret-one/master/hp.gltf"
@@ -45,7 +48,57 @@
     </a-marker>
 
 
+    <!--    COCA-->
     <a-marker id="animated-marker" type='barcode' value='4'>
+        <a-entity
+                gltf-model="https://raw.githubusercontent.com/theopus/secret-one/master/cola-fridge.gltf"
+                scale="0.5 0.5 0.5"
+        >
+        </a-entity>
+    </a-marker>
+
+
+    <!--    cat-->
+    <a-marker id="animated-marker" type='barcode' value='5'>
+        <a-entity
+                gltf-model="https://raw.githubusercontent.com/theopus/secret-one/master/can-anim.gltf"
+                scale="2 2 2"
+                animation-mixer="timeScale:1"
+        >
+        </a-entity>
+    </a-marker>
+
+
+    <!--hammer-->
+    <a-marker id="animated-marker" type='barcode' value='6'>
+        <a-entity
+                gltf-model="https://raw.githubusercontent.com/theopus/secret-one/master/hammer.gltf"
+                scale="1 1 1"
+        >
+        </a-entity>
+    </a-marker>
+
+
+    <!--dumbbell-->
+    <a-marker id="animated-marker" type='barcode' value='7'>
+        <a-entity
+                gltf-model="https://raw.githubusercontent.com/theopus/secret-one/master/dumbbell.gltf"
+                scale="0.4 0.4 0.4"
+        >
+        </a-entity>
+    </a-marker>
+
+    <!--bed-->
+    <a-marker id="animated-marker" type='barcode' value='8'>
+        <a-entity
+                gltf-model="https://raw.githubusercontent.com/theopus/secret-one/master/bed.gltf"
+                scale="1 1 1"
+        >
+        </a-entity>
+    </a-marker>
+
+    <a-marker id="animated-marker" type='barcode' value='9'>
+
         <a-entity
                 gltf-model="https://raw.githubusercontent.com/theopus/secret-one/master/butterfly.gltf"
                 scale="1 1 1"
@@ -53,6 +106,7 @@
         >
         </a-entity>
     </a-marker>
+
 
     <!--    <a-marker id="animated-marker" type='barcode' value='6'>-->
     <!--        <a-entity-->
@@ -65,4 +119,14 @@
     <a-entity camera></a-entity>
 </a-scene>
 </body>
+<script type="text/javascript">
+    var butter = document.getElementsById("animated-marker")[3]
+
+
+
+
+
+
+</script>
 </html>
+
